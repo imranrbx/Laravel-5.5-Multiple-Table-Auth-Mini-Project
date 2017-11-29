@@ -36,7 +36,7 @@ class AdminLoginController extends Controller
      */
     public function __construct()
     {
-        $this->middleware(array('guest:admin','guest:web'))->except('logout');
+        $this->middleware('guest:admin')->except('logout');
     }
 
 
@@ -62,6 +62,14 @@ class AdminLoginController extends Controller
         return $this->guard()->attempt(
             $this->credentials($request), $request->filled('remember')
         );
+    }
+    public function logout(Request $request)
+    {
+        $this->guard()->logout();
+
+        //$request->session()->invalidate();
+
+        return redirect('/');
     }
 
     /**
