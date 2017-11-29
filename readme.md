@@ -6,18 +6,18 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
-## About This Mini Laravel Series
+##About This Mini Laravel Series
 
 This is Laravel 5.5 Mini Tutorial Series or You can Call it Mini Project where i showed how to Create Guards using Auth.php and then use those guard to perform Multi Table Authentication. This project is fully compaitble with Laravel version 5.5.22.
-## How to Install
+##How to Install
 
 Just download the Repository or Clone it and after that goto the folder and run.
--- COMPOSER UPDATE
+--COMPOSER UPDATE
 
 you are done now just run 
 
--- PHP ARTISTAN MAKE:AUTH
--- PHP ARTISAN MIGRATE
+--PHP ARTISTAN MAKE:AUTH
+--PHP ARTISAN MIGRATE
 
 After thin just open the prjoect as ususal, before you run auth or migrate make sure you are connected to your database in .en file.
 
