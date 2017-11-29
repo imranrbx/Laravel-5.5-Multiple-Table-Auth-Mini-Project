@@ -6,8 +6,24 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
+## About This Mini Laravel Series
+
+This is Laravel 5.5 Mini Tutorial Series or You can Call it Mini Project where i showed how to Create Guards using Auth.php and then use those guard to perform Multi Table Authentication. This project is fully compaitble with Laravel version 5.5.22.
+## How to Install
+
+Just download the Repository or Clone it and after that goto the folder and run.
+-- COMPOSER UPDATE
+
+you are done now just run 
+
+-- PHP ARTISTAN MAKE:AUTH
+-- PHP ARTISAN MIGRATE
+
+After thin just open the prjoect as ususal, before you run auth or migrate make sure you are connected to your database in .en file.
+
 
 ## About Laravel
+Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
 
